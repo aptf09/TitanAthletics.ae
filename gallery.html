@@ -157,9 +157,11 @@ p{ color:var(--chalk-dim); max-width:60ch; }
 @media (max-width: 860px){
   .nav-links{
     position:fixed; top:71px; left:0; right:0; bottom:0;
-    background:var(--void); flex-direction:column; align-items:flex-start;
+    background-color:#060608; opacity:1; backdrop-filter:none; -webkit-backdrop-filter:none;
+    flex-direction:column; align-items:flex-start;
     padding:32px 24px; gap:22px;
     transform:translateX(100%); transition:transform 0.3s ease;
+    z-index:99;
   }
   .nav-links.open{ transform:translateX(0); }
   .nav-toggle{ display:block; }
@@ -443,6 +445,99 @@ textarea{ resize:vertical; min-height:120px; }
       </div>
     </div>
     <p style="margin-top:28px; font-size:0.85rem; color:var(--chalk-dim);">Placeholder tiles &mdash; drop in real competition photos and captions here.</p>
+  </div>
+</section>
+
+<div class="lanes"><span></span><span></span><span></span><span></span><span></span></div>
+
+<section class="section">
+  <div class="wrap">
+    <div class="eyebrow">Gallery</div>
+    <h2 style="margin-bottom:40px; max-width:18ch;">More from the season.</h2>
+    <div class="grid-3">
+      <div class="card-photo"><div style="height:200px; background:linear-gradient(135deg, var(--cyan), var(--navy));"></div><div class="cap"><p style="font-size:0.85rem;">[Photo caption]</p></div></div>
+<div class="card-photo"><div style="height:200px; background:linear-gradient(135deg, var(--royal), var(--cyan));"></div><div class="cap"><p style="font-size:0.85rem;">[Photo caption]</p></div></div>
+<div class="card-photo"><div style="height:200px; background:linear-gradient(135deg, var(--red), var(--royal));"></div><div class="cap"><p style="font-size:0.85rem;">[Photo caption]</p></div></div>
+<div class="card-photo"><div style="height:200px; background:linear-gradient(135deg, var(--navy), var(--red));"></div><div class="cap"><p style="font-size:0.85rem;">[Photo caption]</p></div></div>
+<div class="card-photo"><div style="height:200px; background:linear-gradient(135deg, var(--cyan), var(--red));"></div><div class="cap"><p style="font-size:0.85rem;">[Photo caption]</p></div></div>
+<div class="card-photo"><div style="height:200px; background:linear-gradient(135deg, var(--navy), var(--cyan));"></div><div class="cap"><p style="font-size:0.85rem;">[Photo caption]</p></div></div>
+<div class="card-photo"><div style="height:200px; background:linear-gradient(135deg, var(--royal), var(--red));"></div><div class="cap"><p style="font-size:0.85rem;">[Photo caption]</p></div></div>
+<div class="card-photo"><div style="height:200px; background:linear-gradient(135deg, var(--cyan), var(--royal));"></div><div class="cap"><p style="font-size:0.85rem;">[Photo caption]</p></div></div>
+<div class="card-photo"><div style="height:200px; background:linear-gradient(135deg, var(--red), var(--navy));"></div><div class="cap"><p style="font-size:0.85rem;">[Photo caption]</p></div></div>
+    </div>
+    <p style="margin-top:28px; font-size:0.85rem; color:var(--chalk-dim);">Placeholder tiles &mdash; replace each block with a real training or competition photo.</p>
+  </div>
+</section>
+
+<div class="lanes"><span></span><span></span><span></span><span></span><span></span></div>
+
+<section class="section">
+  <div class="wrap">
+    <div class="eyebrow">Testimonials</div>
+    <h2 style="margin-bottom:40px; max-width:20ch;">What athletes &amp; parents say.</h2>
+    <div class="grid-3">
+      <div class="card">
+        <div class="lane-rule"></div>
+        <p class="quote" style="font-size:1.05rem; border:none; padding-left:0;">"[Add a quote about the athlete's progress, coaching quality, or club culture here.]"</p>
+        <cite style="display:block; margin-top:18px; font-style:normal; font-family:var(--cond); font-size:0.85rem; color:var(--chalk-dim); text-transform:uppercase; letter-spacing:0.05em;">&mdash; Athlete Name, Foundation</cite>
+      </div>
+<div class="card">
+        <div class="lane-rule"></div>
+        <p class="quote" style="font-size:1.05rem; border:none; padding-left:0;">"[Add a quote about the athlete's progress, coaching quality, or club culture here.]"</p>
+        <cite style="display:block; margin-top:18px; font-style:normal; font-family:var(--cond); font-size:0.85rem; color:var(--chalk-dim); text-transform:uppercase; letter-spacing:0.05em;">&mdash; Parent Name, Foundation</cite>
+      </div>
+<div class="card">
+        <div class="lane-rule"></div>
+        <p class="quote" style="font-size:1.05rem; border:none; padding-left:0;">"[Add a quote about the athlete's progress, coaching quality, or club culture here.]"</p>
+        <cite style="display:block; margin-top:18px; font-style:normal; font-family:var(--cond); font-size:0.85rem; color:var(--chalk-dim); text-transform:uppercase; letter-spacing:0.05em;">&mdash; Athlete Name, Competitive</cite>
+      </div>
+<div class="card">
+        <div class="lane-rule"></div>
+        <p class="quote" style="font-size:1.05rem; border:none; padding-left:0;">"[Add a quote about the athlete's progress, coaching quality, or club culture here.]"</p>
+        <cite style="display:block; margin-top:18px; font-style:normal; font-family:var(--cond); font-size:0.85rem; color:var(--chalk-dim); text-transform:uppercase; letter-spacing:0.05em;">&mdash; Parent Name, Competitive</cite>
+      </div>
+<div class="card">
+        <div class="lane-rule"></div>
+        <p class="quote" style="font-size:1.05rem; border:none; padding-left:0;">"[Add a quote about the athlete's progress, coaching quality, or club culture here.]"</p>
+        <cite style="display:block; margin-top:18px; font-style:normal; font-family:var(--cond); font-size:0.85rem; color:var(--chalk-dim); text-transform:uppercase; letter-spacing:0.05em;">&mdash; Athlete Name, Elite Pathway</cite>
+      </div>
+<div class="card">
+        <div class="lane-rule"></div>
+        <p class="quote" style="font-size:1.05rem; border:none; padding-left:0;">"[Add a quote about the athlete's progress, coaching quality, or club culture here.]"</p>
+        <cite style="display:block; margin-top:18px; font-style:normal; font-family:var(--cond); font-size:0.85rem; color:var(--chalk-dim); text-transform:uppercase; letter-spacing:0.05em;">&mdash; Parent Name, Elite Pathway</cite>
+      </div>
+<div class="card">
+        <div class="lane-rule"></div>
+        <p class="quote" style="font-size:1.05rem; border:none; padding-left:0;">"[Add a quote about the athlete's progress, coaching quality, or club culture here.]"</p>
+        <cite style="display:block; margin-top:18px; font-style:normal; font-family:var(--cond); font-size:0.85rem; color:var(--chalk-dim); text-transform:uppercase; letter-spacing:0.05em;">&mdash; Athlete Name, Foundation</cite>
+      </div>
+<div class="card">
+        <div class="lane-rule"></div>
+        <p class="quote" style="font-size:1.05rem; border:none; padding-left:0;">"[Add a quote about the athlete's progress, coaching quality, or club culture here.]"</p>
+        <cite style="display:block; margin-top:18px; font-style:normal; font-family:var(--cond); font-size:0.85rem; color:var(--chalk-dim); text-transform:uppercase; letter-spacing:0.05em;">&mdash; Parent Name, Competitive</cite>
+      </div>
+<div class="card">
+        <div class="lane-rule"></div>
+        <p class="quote" style="font-size:1.05rem; border:none; padding-left:0;">"[Add a quote about the athlete's progress, coaching quality, or club culture here.]"</p>
+        <cite style="display:block; margin-top:18px; font-style:normal; font-family:var(--cond); font-size:0.85rem; color:var(--chalk-dim); text-transform:uppercase; letter-spacing:0.05em;">&mdash; Athlete Name, Competitive</cite>
+      </div>
+<div class="card">
+        <div class="lane-rule"></div>
+        <p class="quote" style="font-size:1.05rem; border:none; padding-left:0;">"[Add a quote about the athlete's progress, coaching quality, or club culture here.]"</p>
+        <cite style="display:block; margin-top:18px; font-style:normal; font-family:var(--cond); font-size:0.85rem; color:var(--chalk-dim); text-transform:uppercase; letter-spacing:0.05em;">&mdash; Parent Name, Elite Pathway</cite>
+      </div>
+<div class="card">
+        <div class="lane-rule"></div>
+        <p class="quote" style="font-size:1.05rem; border:none; padding-left:0;">"[Add a quote about the athlete's progress, coaching quality, or club culture here.]"</p>
+        <cite style="display:block; margin-top:18px; font-style:normal; font-family:var(--cond); font-size:0.85rem; color:var(--chalk-dim); text-transform:uppercase; letter-spacing:0.05em;">&mdash; Athlete Name, Elite Pathway</cite>
+      </div>
+<div class="card">
+        <div class="lane-rule"></div>
+        <p class="quote" style="font-size:1.05rem; border:none; padding-left:0;">"[Add a quote about the athlete's progress, coaching quality, or club culture here.]"</p>
+        <cite style="display:block; margin-top:18px; font-style:normal; font-family:var(--cond); font-size:0.85rem; color:var(--chalk-dim); text-transform:uppercase; letter-spacing:0.05em;">&mdash; Parent Name, Foundation</cite>
+      </div>
+    </div>
+    <p style="margin-top:28px; font-size:0.85rem; color:var(--chalk-dim);">Placeholder quotes &mdash; swap in real feedback from athletes or parents.</p>
   </div>
 </section>
 
